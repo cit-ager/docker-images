@@ -1,4 +1,4 @@
-#raghudevops26/httpd
+#raghudevops26/httpd:v2
 FROM centos
 RUN yum install httpd httpd-devel gcc wget make -y 
 RUN cd /opt && wget -qO- http://redrockdigimark.com/apachemirror/tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.42-src.tar.gz | tar -xz 
